@@ -1,7 +1,7 @@
 import React from 'react'
 
 const AboutDetail = ({params}) => {
-    console.log(params)
+  throw new Error("test")
   return (
     <div>AboutDetail</div>
   )

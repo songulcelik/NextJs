@@ -1,6 +1,10 @@
 import React from 'react'
 
-const DashboardProductDetailsPage = ({params}) => {
+const DashboardProductDetailsPage = ({params, searchParams}) => {
+  console.log(params)
+  console.log(searchParams)
+
+  
   return (
     <div>DashboardProductDetailsPage</div>
   )
