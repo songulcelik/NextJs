@@ -1,8 +1,14 @@
+import PageHeader from '@/components/common/page-header'
 import React from 'react'
-
+export const metadata = {
+	title: "Login",
+	description: "You can get luxury electronic devices",
+};
 const LoginPage = () => {
   return (
-    <div>LoginPage</div>
+    <div>
+      <PageHeader title="Login"/>
+    </div>
   )
 }
 

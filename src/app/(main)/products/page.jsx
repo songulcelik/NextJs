@@ -1,8 +1,25 @@
+import PageHeader from '@/components/common/page-header'
+import Spacer from '@/components/common/spacer';
+import ProductList from '@/components/products/product-list';
+import { config } from '@/utils/config';
 import React from 'react'
 
-const ProductsPage = () => {
+export const metadata = {
+	title: "Products",
+	description: "You can get luxury electronic devices",
+};
+const ProductsPage =async () => {
+  const res = await fetch(`${config.apiURL}/products`);
+  const products= await res.json();
+ 
   return (
-    <div>All products</div>
+    <div>
+      <PageHeader title="Products"/>
+      <Spacer height={50}/>
+      <ProductList products={products}/>
+      <Spacer/>
+      
+    </div>
   )
 }
 

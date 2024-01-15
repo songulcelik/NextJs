@@ -9,7 +9,7 @@ const DashboardHeader = () => {
 	const pathname = usePathname();
 
 	return (
-		<Navbar expand={false} className="bg-danger mb-3" collapseOnSelect>
+		<Navbar className={`bg-danger mb-3`} expand={false} collapseOnSelect>
 			<Container>
 				<Navbar.Brand href="#">Product Manager</Navbar.Brand>
 				<Navbar.Toggle aria-controls={`dashboardOffcanvas`} />
