@@ -1,12 +1,14 @@
 import { roboto } from "@/utils/font";
 import "./index.scss";
 
+
+
 export const metadata = {
 	title:{
 		template:  "%s | Cosmo Shop",
 		default: "Cosmo Shop"
 	},
-	description: "You can get luxury electronic devices",
+	description: "You can get luxury electornic devices",
 };
 
 export default function RootLayout({ children }) {

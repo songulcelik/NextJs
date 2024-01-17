@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap'
 
 const SubmitButton = ({title}) => {
   return (
-    <Button type='submit' >{title}</Button>
+    <Button type="submit">{title}</Button>
   )
 }
 

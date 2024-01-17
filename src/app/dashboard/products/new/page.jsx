@@ -1,7 +1,7 @@
 import NewProductForm from '@/components/dashboard/products/new-product-form'
 import React from 'react'
 
-const NewProduct = () => {
+const NewProductPage = () => {
   return (
     <div>
         <NewProductForm/>
@@ -9,4 +9,4 @@ const NewProduct = () => {
   )
 }
 
-export default NewProduct
+export default NewProductPage

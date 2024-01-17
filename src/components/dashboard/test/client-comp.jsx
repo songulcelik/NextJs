@@ -1,14 +1,14 @@
-"use client"
-import React from 'react'
+"use client";
+import React from "react";
 
 const ClientComp = () => {
-    console.log("bu bir client componenttir")
-  return (
-    <div>ClientComp
-         
+	console.log("Bu bir client component tir");
+	return (
+		<div>
+			ClientComp
+			
+		</div>
+	);
+};
 
-    </div>
-  )
-}
-
-export default ClientComp
+export default ClientComp;

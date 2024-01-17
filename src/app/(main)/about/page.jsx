@@ -5,8 +5,11 @@ import React from "react";
 
 export const metadata = {
 	title: "About",
-	description: "You can get luxury electronic devices",
+	description: "You can get luxury electornic devices",
 };
+
+//export const dynamic = "force-dynamic";
+
 const AboutPage = ({ params }) => {
 	//throw new Error("test")
 	return (

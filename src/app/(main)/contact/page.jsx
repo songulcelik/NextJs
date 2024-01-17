@@ -6,16 +6,22 @@ import PageHeader from "@/components/common/page-header";
 
 export const metadata = {
 	title: "Contact",
-	description: "You can get luxury electronic devices",
+	description: "You can get luxury electornic devices",
 };
+
+
+
 const ContactPage = async () => {
 	await wait(3000);
 
+	console.log("Bu sayfa statik")
+
 	return (
-		<div>
+		<>
+
 			<PageHeader title="Contact"/>
 
-			<div style={{height: "200px", width:"50%", position:"relative"}}>
+			<div style={{height: "200px", width:"100%", position:"relative"}}>
 				<Image
 					src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 					fill
@@ -25,7 +31,7 @@ const ContactPage = async () => {
 
 			<Image src={logo}/>
 
-		</div>
+		</>
 	);
 };
 

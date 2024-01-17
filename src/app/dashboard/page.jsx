@@ -12,8 +12,9 @@ const DashboardPage = () => {
 
       <Test/>
 
+      
       <ClientComp>
-      <ServerComp/>
+        <ServerComp/>
       </ClientComp>
     </div>
   )
