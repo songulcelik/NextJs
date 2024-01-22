@@ -26,10 +26,11 @@ const ContactPage = async () => {
 					src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 					fill
 					style={{objectFit: "cover", objectPosition:"bottom center"}}
+					alt="contact image"
 				/>
 			</div>
 
-			<Image src={logo}/>
+			<Image src={logo} alt="contact image"/>
 
 		</>
 	);
